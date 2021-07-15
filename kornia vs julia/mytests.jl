@@ -2,9 +2,9 @@ srcs=[[162,237,1] [220,979,1] [1237,861,1] [1254,301,1.]];
 
 tgts=[[193,209,1] [224,854,1] [1308,867,1] [1359,227,1.]];
 
-src_img = load("/home/somvt/work/DiffImages.jl/examples/source.jpeg")
+src_img = load("source.jpeg")
 
-tgt_img = load("/home/somvt/work/DiffImages.jl/examples/target.jpeg")
+tgt_img = load("target.jpeg")
 
 src2 = imresize(src_img,ratio=1/8)
 tgt2 = imresize(tgt_img,ratio=1/8)
